@@ -1,0 +1,145 @@
+body{
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+}
+.navbar{
+  background-color: pink;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0;
+}
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a{
+  color: blue;
+  text-decoration: none;
+}
+.main{
+  background: url('groupimage.jpeg') center/cover no-repeat;
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.main-content h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.main-content p{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.btn{
+  background-color: white;
+  color: #2575fc;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.about, .services, .portfolio, .contact{
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: white;
+}
+h2{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.service-cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.service-card{
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 30%;
+  min-width: 200px;
+}
+.portfolio-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.portfolio-item{
+  background: url('groupimage.jpeg') center/cover no-repeat;
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.contact-form{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact-form input, .contact-form textarea{
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.contact-form button{
+  background-color: #2575fc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.chatbot{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.chatbot-btn{
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.chatbot-container{
+  display: none;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  padding: 1rem;
+}
+.chatbot-input{
+  display: flex;
+  margin-top: 1rem;
+}
+.chatbot-input input{
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.chatbot-input button{
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}

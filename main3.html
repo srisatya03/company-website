@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Company</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">Codecraft</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="home" class="main">
+    <div class="main-content">
+      <h1>Where Technology Meets Creativity</h1>
+      <p>Innovative solutions to drive your business forward.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a tech-driven company that thrives on delivering innovative IT solutions tailored to your business needs.</p>
+  </section>
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Crafting responsive and user-friendly websites.</p>
+      </div>
+      <div class="service-card">
+        <h3>Cloud Solutions</h3>
+        <p>Providing scalable and secure cloud infrastructure.</p>
+      </div>
+      <div class="service-card">
+        <h3>UI/UX Design</h3>
+        <p>Designing beautiful and intuitive interfaces.</p>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">Project 1</div>
+      <div class="portfolio-item">Project 2</div>
+      <div class="portfolio-item">Project 3</div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+      <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+      <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <div class="chatbot">
+    <button id="chatbot-toggle" class="chatbot-btn">Chat</button>
+    <div id="chatbot-container" class="chatbot-container">
+      <div class="chatbot-messages"></div>
+      <div class="chatbot-input">
+        <input type="text" id="chatbot-input" placeholder="Type your message...">
+        <button id="chatbot-send">Send</button>
+      </div>
+    </div>
+  </div>
+<script src="script3.js"></script>
+</body>
+</html>
